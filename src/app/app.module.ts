@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { AngularMaptalksModule } from 'angular-maptalks';
+import { AngularMaptalksModule, MapService } from 'angular-maptalks';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AngularMaptalksModule],
-  providers: [],
+  providers: [MapService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
