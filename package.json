@@ -18,10 +18,10 @@
     "@angular/platform-browser": "^18.2.6",
     "@angular/platform-browser-dynamic": "^18.2.6",
     "@angular/router": "^18.2.6",
-    "angular-maptalks": "^0.0.2",
+    "angular-maptalks": "file:../AngularMaptalks/dist/angular-maptalks",
     "rxjs": "~7.8.1",
     "tslib": "^2.7.0",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.14.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
