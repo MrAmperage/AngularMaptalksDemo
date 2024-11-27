@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^18.2.6",
     "@angular/router": "^18.2.6",
     "angular-maptalks": "file:../AngularMaptalks/dist/angular-maptalks",
+    "angular-maptalks-toolbar-plugin": "file:../AngularMaptalksToolbarPlugin/dist/angular-maptalks-toolbar-plugin",
     "rxjs": "~7.8.1",
     "tslib": "^2.7.0",
     "zone.js": "~0.14.10"
