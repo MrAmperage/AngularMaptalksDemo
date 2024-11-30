@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MapService } from 'angular-maptalks';
+import ThreeDimensionPlugin from 'src/ThreeDimensionsPluginComponent/ThreeDimensionsPlugin/ThreeDimensionsPlugin';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.MapService.SetConfiguration({ Center: [86.7, 55.14], Zoom: 19 });
+    new ThreeDimensionPlugin().addTo(this.MapService.Map);
   }
 }
